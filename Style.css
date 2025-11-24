@@ -1,0 +1,100 @@
+
+
+
+body {
+    background: #f2f2f2;
+}
+
+
+.header {
+    background: #000;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.header h1 {
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 40px;
+    padding: 40px;
+}
+
+
+.sidebar {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+.sidebar h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar li {
+    margin: 20px 0;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+}
+
+
+.proyectos h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.grid {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    width: 300px;
+    border-radius: 12px;
+    padding-bottom: 20px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 12px 12px 0 0;
+}
+
+.card h3 {
+    font-size: 24px;
+    margin: 15px;
+}
+
+.card p {
+    font-size: 18px;
+    margin: 0 15px;
+    
+}
+
+
+.footer {
+    text-align: center;
+    padding: 40px ;
+    margin-top: 50px;
+    color: white;
+    background-color: #000;
+}
